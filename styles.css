@@ -1,0 +1,38 @@
+div.post{
+    display: flexbox;
+    width: 375px;
+    align-content: center;
+    justify-content: center;
+}
+div.post-header{
+    display: flexbox;
+    flex-direction: row;
+    font-size: 125%;
+
+}
+div.post-icons{
+    display: flexbox;
+    flex-direction: row;
+    font-size: 150%;
+}
+span{
+    float: right;
+    display: flexbox;
+}
+div.post-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
